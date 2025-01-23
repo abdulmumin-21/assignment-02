@@ -249,6 +249,9 @@ border: none;
   
  }
  .sembol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 62px;
     height: 62px;
     
