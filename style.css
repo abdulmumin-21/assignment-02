@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+/* nav bar */
+header{
+    width: 80%;
+    margin: auto;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#line-btn{
+    display: none;
+}
+.school{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.nav-img{
+    width: 62px;
+    height: 62px;
+
+}
+
+.nav-titel{
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-family: Quicksand;
+    color: rgb(17, 17, 17);
+   
+
+}
+
+.manue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+margin: 0px 186px;
+
+
+}
+.p-1{
+    color: rgb(254, 163, 1);
+font-family: Quicksand;
+font-size: 20px;
+order: 0;
+}
+.p-2{
+    color: rgb(1, 172, 253);
+font-family: Quicksand;
+font-size: 20px;
+order: 1;
+}
+.p-3{
+    color: rgb(5, 212, 223);
+font-family: Quicksand;
+font-size: 20px;
+order: 2;
+}
+.p-4{
+    color: rgb(93, 88, 239);
+font-family: Quicksand;
+font-size: 20px;
+order: 3;
+}
+
+
+.Contact{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 600;
+border-radius: 12px;
+border: none;
+background: rgb(254, 163, 1)
+}
+
+
+/* banner section  */
+
+#banner{
+    display: flex;
+    justify-content: space-between;
+}
+.text-side{
+    width: 640px;
+height: 331px;
+}
+.banner-titel{
+    font-family: Quicksand;
+font-size: 56px;
+font-weight: 700;
+}
+.span-1{
+    color: rgb(254, 163, 1);
+
+}
+.span-2{
+color: rgb(1, 172, 253);
+}
+
+
+.banner-text{
+    margin: 24px 0px;
+    color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 400;
+}
+.banner-btn{
+    width: 197px;
+    height: 50px;
+padding: 10px;
+border-radius: 12px;
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+background: rgb(17, 17, 17);
+}
+
+.banner-img{
+    width: 468px;
+    height: 575px;
+}
+
+/* main part 1*/
+
+#first-part{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.titel-div{
+
+color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 48px;
+text-align: center;
+margin-top: 60px;
+}
+.card-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-a{
+width: 367.8px;
+height: 476.78px;
+box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-b{
+width: 367.8px;
+height: 481.5px;
+box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.card-c{
+width: 367.8px;
+height: 476.78px;
+box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.card-img{
+margin-left: 120px;
+margin-top: 65px;
+}
+
+.card-titel{
+align-items: center;
+color: rgb(32, 32, 32);
+font-family: Quicksand;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+}
+.card-text{
+align-items: center;
+color: rgb(128, 128, 128);
+font-family: Raleway;
+font-size: 10px;
+font-weight: 250;
+padding: 20px;
+text-align: center;
+}
+.card-btn-a{
+   margin-left: 152px;
+   color: rgb(100, 200, 255);
+font-family: Quicksand;
+font-size: 15px;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+border: none;
+}
+.card-btn-b{
+    margin-left: 152px;
+    color: rgb(240, 170, 0);
+ font-family: Quicksand;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 28px;
+ text-align: center;
+ border: none;
+ }
+ .card-btn-c{
+    margin-left: 152px;
+    color: rgb(135, 0, 255);
+ font-family: Quicksand;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 28px;
+ text-align: center;
+ border: none;
+ }
+
+ .sign{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    
+    display: flex;
+    gap: 10px;
+  
+ }
+ .sembol{
+    width: 62px;
+    height: 62px;
+    
+    border-radius: 30px;
+    text-align: center;
+    
+    background: rgb(254, 163, 1);
+    
+
+ }
+.fa-solid{
+ 
+    border-radius: 30px;
+
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 900;
+
+
+
+}
+ /* main part 2 */
+
+.div-head{ 
+ 
+  
+    font-weight: 700;
+    line-height: 57px;
+    padding: 60px 0px 60px 0px;
+    
+    text-align: center;
+
+}
+.div-titel-2{
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+   
+
+}
+
+
+
+ #section-2{
+ 
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+ }
+
+ .section-2-main{
+    width: 80%;
+    margin: auto;
+ }
+ .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 19px;
+ }
+ .story-a{
+   border-radius: 16px;
+
+background: rgb(255, 255, 255);
+
+ }
+ .image-a1{
+    width: fit-content;
+    border-radius: 16px 16px 0 0;
+ }
+ .story-h{
+    color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+line-height: 38.35px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .story-a-text{
+    color: rgb(102, 102, 102);
+font-family: Raleway;
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: left;
+ }
+.story-1-div{
+    width: 434px;
+    margin-left: 38px;
+}
+
+
+ .story-b{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-template-rows:repeat(2,1fr) ;
+   gap: 19px;
+ }
+ .st-div{
+    position: relative;
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    
+    background: rgb(255, 255, 255);
+     
+ }
+
+.story-h5{
+    color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 15.34px;
+font-weight: 700;
+line-height: 28.76px;
+text-align: center;
+
+}
+
+
+ .img-b{
+position: relative;
+width: 291px;
+height: 177px;
+border-radius: 16px 16px 0px 0px;
+
+background: url(),rgb(255, 255, 255);
+ }
+
+ .view-btn{
+
+width: 197px;
+height: 50px;
+margin: auto;
+margin-top: 80px;
+padding-bottom: 80px;
+ }
+ #v-btn{
+   
+    padding: 10px;
+    border-radius: 12px;
+  
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+ }
+
+
+
+
+ /* footer part */
+
+footer{
+    background: rgb(1, 172, 253);
+}
+ #footer{
+
+display: flex;
+justify-content: space-between;
+width: 80%;
+margin: auto;
+padding-bottom: 60px;
+ }
+
+ .div-kids{
+    display: flex;
+    flex-direction: row;
+ }
+ .bag-logo{
+width: 82px;
+height: 81px;
+background-color: aliceblue;
+margin-top: 50px;
+
+ }
+ .titel-1{
+
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 42px;
+    font-weight: 700;
+   
+ }
+ .kids-para{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 15px;
+ }
+ 
+ .titel-2{
+    width: 156.36px;
+height: 30px;
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+ }
+ .our-service{
+    width: 97.47px;
+height: 25px;
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+text-align: left;
+ }
+
+ .titel-3{
+    width: 177.12px;
+height: 26px;
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 26px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+ }
+
+
+@media screen and (max-width: 914px) {
+    .nav-img{
+        display: block;
+      
+        
+    }
+    #line-btn{
+        display: block;
+    }
+    .manue{
+        display: none;
+    }
+    .nav-titel{
+        display: none;
+    }
+    .Contact{
+        display: none;
+    }
+    #banner{
+        display: flex;
+
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .banner-titel{
+        width: 357px;
+height: 120px;
+font-family: Quicksand;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+    }
+    .banner-text{
+        width: 357px;
+height: 54px;
+color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+    }
+    .banner-btn{
+        width: 131px;
+height: 42px;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 6px 24px 6px 24px;
+margin-left: 66px;
+border-radius: 8px;
+background: rgb(17, 17, 17);
+    }
+    .card-div{
+        display: block;
+       
+    }
+    .story-a{
+        display: none;
+    }
+    .card-a{
+        width: 100%;
+    }
+    .story-b{
+       width: 100%; 
+    }
+  
+.st-div{
+   
+border-radius: 9.53px;
+
+background: rgb(255, 255, 255);
+}
+
+
+    #footer{
+        display: block;
+    }
+}
